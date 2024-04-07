@@ -1,0 +1,55 @@
+.navbar-component{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: purple; */
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 80%;
+    /* background-color: red; */
+}
+.nav-logo h1{
+    font-size: 1.8vw;
+    color: white;
+}
+.navbar-component ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0vw;
+    /* text-decoration: none; */
+    /* background-color: blue; */
+}
+.navbar-component li{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    list-style-type: none;
+}
+.navbar-component li:hover{
+    background: -webkit-linear-gradient(.40turn,#fa6d6d,#fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+.navbar-component .nav-login:hover{
+    background: -webkit-linear-gradient(.40turn,#fa6d6d,#fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav-login{
+    font-size: 1.7vw;
+    color: white;
+    /* background-color: orange; */
+}

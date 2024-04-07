@@ -1,0 +1,105 @@
+.home-left-component{
+    width: 35vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+    /* background-color:blue;        */
+}
+.booksforall{
+    font-family: none;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:transparent;
+    background: url('../Images/back.png');
+    background-position: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* object-fit: cover; *
+    /* background-position: -100px -100px; */
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.letters{
+    /* font-family:Signika; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+   
+
+}
+
+.rectangle{
+    text-align: center;
+    width: 80%;
+    height: 95%;  
+    background-image: url('../Images/back.png');
+    border-radius: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-image-slice: 100;
+    /* border-image-repeat: repeat;  */
+}
+.inner-rectangle{
+    height: 80%;
+    width: 55%;
+    border-radius: 2.5vw;
+    background-color: black;
+}
+
+.singleL .blank{
+    height: 100%;
+}
+.singleL .L{
+    height: 100%;
+}
+
+.letter{
+    width: 100%;
+    height:100%;
+    font-size: 8vw;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    line-height: 7vw;
+    /* background-image: url('../Images/bookgif2.png'); */
+    /* margin: 1vw; */
+}
+.para{
+width: 90%;
+    height: 17%;
+    padding-left: 1vw;
+    /* background-color: red; */
+}
+.para p{
+    
+    font-size: 1.3vw;
+    color: white;
+}
+
+.home-page-button{
+    padding-left: 1vw;
+    font-family: 'Signika';
+}
+/* .home-page-button:hover{
+    font-weight: 800;
+} */
+.home-page-button:active{
+    transform: translate(1px,1px);
+}

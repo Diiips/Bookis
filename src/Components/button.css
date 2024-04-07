@@ -1,0 +1,19 @@
+
+
+.button-component {
+    width: 13vw;
+    height: 4vw;
+    border: none;
+    font-weight: normal;
+    border-radius: 0.5vw;
+    color:transparent;
+    color: black;
+    font-size: 1.6vw;
+    background-color: rgb(248, 216, 141); 
+    /* overflow: hidden; */
+    cursor: pointer; 
+}
+.button-component:hover{
+    font-size: 1.7vw;
+}
+
