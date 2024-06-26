@@ -1,0 +1,76 @@
+
+.bookContainer{
+    color: white;
+    width: 100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    /* background-color: navajowhite; */
+}
+.dorpdown-img-button{
+    width: 80vw;
+    height:60vh;
+    display: flex;
+    flex-direction:row;
+    /* background-color:yellow; */
+}
+.dept-name h1{
+    width: 100%;
+    color: white;
+    font-size: 1.7vw;
+    text-align: center;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.dropdowns{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
+    gap: 2vw;
+}
+.downpart{
+    display: flex;
+    flex-direction: row;
+    /* gap: 2vw; */
+    /* background-color: blue; */
+    width: 80vw;
+    height: 60vh;
+    justify-content:center;
+}
+.book-cover-img{
+    display: flex;
+    justify-content: center;
+    /* background-color:crimson; */
+    width: 33.33%;
+    height: 100%;
+}
+.book-cover-img img{
+    width: 80%;
+    height: 100%;
+    object-fit: fill;
+}
+.view-download-btn{
+    /* background-color: red; */
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 2vw;
+}
+.view-download-btn>button{
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.2vw;
+}
+.view-download-btn>button:hover{
+    font-size: 1.3vw;
+}

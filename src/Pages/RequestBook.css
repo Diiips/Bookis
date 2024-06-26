@@ -1,0 +1,112 @@
+.RequestBook-page {
+    width: 100vw;
+    height: 100vw;
+    background-color: #fdf4e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RequestBook-background {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0vw 0vw 2vw 2vw;
+    background-color: black;
+}
+
+.RequestBook-background h1 {
+    width: 100%;
+    height: max-content;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+.RequestBook-content {
+    position: relative;
+    top: -6vw;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.8vw 2vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5vw;
+    height:max-content;
+}
+.RequestBook-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+
+    
+}
+.RequestBook-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vw;
+    /* background-color: red; */
+    width: 100%;
+    height: max-content;
+}
+
+.RequestBook-content input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.8vw;
+    width: 100%;
+    border: 1px solid #ccc;                                                             
+    border-radius: 0.25vw;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* margin-bottom: 1vw; */
+}
+
+.RequestBook-content input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #fb931c;
+    outline: none;
+}
+
+.RequestBook-content button[type="submit"] {
+    /* margin-top: 1vw; */
+    width: 100%;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.3vw;
+    background-color: #333;
+    color: white;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.RequestBook-content button[type="submit"]:hover {
+    background: -webkit-linear-gradient(.40turn, #fa6d6d, #ff7e5f, #ffae4f, #fcb045);
+}
+
+select {
+    /* height: 2.5vw; */
+    /* margin-bottom: 1vw; */
+    width: 100%;
+    padding: 0.65vw;
+    border: 1px solid #ccc;
+    border-radius: 0.2vw;
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.RequestBook-Form-Select{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    height: max-content;
+    /* margin-top: 1vw; */
+    /* background-color: blue; */
+}
+

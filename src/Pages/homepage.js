@@ -1,5 +1,6 @@
 import HomeLeftComponent from '../Components/home-left';
 import HomeRightComponent from '../Components/home-right';
+import Navbar from '../Components/navbar';
 import './homepage.css'
 
 

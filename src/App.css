@@ -8,11 +8,35 @@
   width: 100vw; 
   height:100vh;
   background-color: black;
-  /* padding: 2vw 5vw; */
-  /* border: solid 5vw white; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
-.App-getbook{
-  background-color: red;
-  width: 100%;
-  height: 100%;
+
+
+/* App.css */
+
+.page-enter {
+  left: 0;
+  opacity: 0;
+  transform: rotateY(90deg);
 }
+.page-enter-active {
+  left: 0;
+  opacity: 1;
+  transform: rotateY(0deg);
+  transition: opacity 600ms, transform 1000ms;
+}
+.page-exit {
+  left: 0;
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.page-exit-active {
+  left: 0;
+  opacity: 0;
+  transform: rotateY(90deg);
+  transition: opacity 600ms, transform 1000ms;
+}
+

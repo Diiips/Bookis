@@ -1,0 +1,215 @@
+
+.LoginPage {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,134,42,1) 27%, rgba(249,226,162,1) 50%, rgba(253,158,55,1) 70%, rgba(244,30,30,1) 100%); */
+}
+.LoginBackground{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0vw 0vw 2vw 2vw;
+  background-color: black;
+}
+.LoginBackground h1 {
+  width: 100%;
+  height: max-content;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 500;
+  text-align: center;
+  padding: 2vw 0;
+}
+.LoginContent {
+  background-color: white;
+  width: 65%;
+  height: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5vw;
+  position: relative;
+  top: 3vw;
+  display: flex;
+  flex-direction: row;
+}
+.left-block{
+  width: 57%;
+  border-radius: 0.5vw 0 0 0.5vw;
+  background-image: url(../Images/loginimg.png);
+}
+.left-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Images/loginimg.png');
+  background-size: cover;
+  border-radius: 0.5vw 0 0 0.5vw;
+  filter: blur(16px);
+  z-index: -1;
+}
+
+.left-block img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5vw 0 0 0.5vw;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(3, 45, 123, 0.49);
+  border-radius: 0.5vw 0 0 0.5vw;
+  padding: 3.8vw;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.card h1{
+  color: white;
+}
+.right-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5vw;
+  width: 43%;
+  border-radius: 0 0.5vw 0.5vw 0;
+  background:black;
+  border-top: 2px solid rgb(0, 110, 255);
+  border-right: 2px solid rgb(0, 110, 255);
+  border-bottom: 2px solid rgb(0, 110, 255);
+}
+.LoginContent form {
+  display: flex;
+  gap: 2vw;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1vw;
+}
+.input-field {
+  position: relative;
+  width: 100%;
+}
+
+.input-field .fa-user,
+.input-field .fa-envelope,
+.input-field .fa-lock {
+  position: absolute;
+  left: 0.8vw;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 1.1vw;
+}
+
+.input-field input[type="text"],
+.input-field input[type="email"],
+.input-field input[type="password"] {
+  width: 100%;
+  padding: 0.8vw 0.8vw 0.8vw 2.5vw;
+  border: 1px solid #ccc;
+  border-radius: 0.3vw;
+  font-size: 1.1vw;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-field input[type="text"]:focus,
+.input-field input[type="email"]:focus,
+.input-field input[type="password"]:focus {
+  border-color: #fb9d06;
+  outline: none;
+}
+
+
+.btn-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+/* 
+.LoginContent button[type="submit"] {
+  width: 40%;
+  padding: 1vw;
+  border: none;
+  border-radius: 0.2vw;
+  background-color: #333;
+  color: white;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.LoginContent button[type="submit"]:hover {
+  background: -webkit-linear-gradient(0.4turn, #fa6d6d, #ff7e5f, #ffae4f, #fcb045);
+}
+
+.disable {
+  background-color: #c66565;
+  cursor: not-allowed;
+} */
+
+p {
+  font-size: 1vw;
+  font-family:'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: 0;
+}
+
+p a {
+  color: #fb9d06;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* CSS */
+.LoginContent button[type="submit"] {
+  background: linear-gradient(to bottom right, #EF4765, #ffc35a);
+  border: 0;
+  width: 10vw;
+  border-radius: 0.2vw;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1vw;
+  font-weight: 500;
+  line-height: 2.7;
+  outline: transparent;
+  /* padding: 0 1rem; */
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.LoginContent button[type="submit"]:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.LoginContent button[type="submit"]:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}

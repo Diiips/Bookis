@@ -78,28 +78,28 @@
     align-items: center;
     padding:0;
     line-height: 7vw;
-    /* background-image: url('../Images/bookgif2.png'); */
-    /* margin: 1vw; */
 }
 .para{
-width: 90%;
+    width: 90%;
     height: 17%;
     padding-left: 1vw;
-    /* background-color: red; */
+    
 }
 .para p{
     
     font-size: 1.3vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.892);
 }
 
-.home-page-button{
-    padding-left: 1vw;
+/* .home-page-button .homepagebtn{
+    
     font-family: 'Signika';
-}
-/* .home-page-button:hover{
-    font-weight: 800;
+    background-color: red;
+    border-radius:0; 
+    box-sizing: border-box;
 } */
+
+
 .home-page-button:active{
     transform: translate(1px,1px);
 }

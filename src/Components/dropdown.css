@@ -1,0 +1,18 @@
+.dropdown-component select{
+    width: 18vw;
+    height: 2.5vw;
+    padding: 0.2vw 0.3vw;
+    border-radius: 0.2vw;
+    padding-left: 0.5vw;
+    font-size: 1.15vw;
+    color: rgb(107, 107, 107);
+    background-color:whitesmoke;
+
+}
+
+.dropdown-component select option{
+    width: max-content;
+    height: max-content;
+    font-size: 1.15vw;
+    border-radius: 0;
+}

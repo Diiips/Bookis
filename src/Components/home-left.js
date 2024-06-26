@@ -1,9 +1,9 @@
 import './home-left.css'
 import Button from '../Components/button';
+import { useNavigate } from 'react-router-dom';
 
 const HomeLeftComponent = () =>{
-    const getbooks = {title:"Get Books"}
-
+    const navigate = useNavigate();
     return(
     <div className='home-left-component'>
         <div className='booksforall'>
@@ -39,10 +39,11 @@ const HomeLeftComponent = () =>{
             <p>Regular reading allows you to better formulate your own throughts Our team will always help you makes up your mind and find a book for fun activities
             </p>
         </div>
-        <div className='home-page-button'>
-        <a href='' getbooks>
-             <Button {...getbooks}/>
-        </a>
+
+        <div className='home-page-button' id='homepage-button'>
+
+              <Button Title='Get Books' onclick= {()=>{navigate('getbook')}} className='homepagebtn'/> 
+      
         </div>
  
     </div>
