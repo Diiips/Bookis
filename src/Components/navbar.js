@@ -11,12 +11,12 @@ export default function Navbar(){
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/AboutPage">About</Link></li>
-                <li><Link to="/RequestBook">Request Book</Link></li>
-                <li><Link to="/">Donate Book</Link></li>
+                <li><Link to="/RequestBook">Donate Book</Link></li>
+                {/* <li><Link to="/">Donate Book</Link></li> */}
                 <li><Link to="/ContactUs">Contact Us</Link></li>
             </ul>
             <div className='nav-login'>
-            <Link to="/Login2">Login</Link>
+            <Link to="/Login3">Login</Link>
             </div>
         </div>
     );

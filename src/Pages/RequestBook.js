@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './RequestBook.css';
-
+import AddDynamicInputFields from '../Components/AddDynamicInputFields'
 export default function RequestBook() {
     const initialFormData = {
         Name: "",
@@ -57,7 +57,7 @@ export default function RequestBook() {
     return (
         <div className='RequestBook-page'>
             <div className='RequestBook-background'>
-                <h1>Request Your Book</h1>
+                <h1>Donate/Sell Your Book</h1>
             </div>
             <div className='RequestBook-content'>
                 <form onSubmit={fetchData}>
@@ -89,7 +89,7 @@ export default function RequestBook() {
                             onChange={handleChange}
                             required
                         >
-                            <option value='' disabled>Year</option>
+                            <option value='' disabled>Year(Book)</option>
                             <option value='FE'>FE</option>
                             <option value='SE'>SE</option>
                             <option value='TE'>TE</option>
@@ -103,7 +103,7 @@ export default function RequestBook() {
                             onChange={handleChange}
                             required
                         >
-                            <option value='' disabled>Semester</option>
+                            <option value='' disabled>Semester(Book)</option>
                             <option value='sem1'>Sem 1</option>
                             <option value='sem2'>Sem 2</option>
                         </select>
@@ -124,7 +124,7 @@ export default function RequestBook() {
                             <option value='Artificial & Intelligence'>Artificial & Intelligence</option>
                         </select>
                     </div>
-                    <input
+                    {/* <input
                         type='text'
                         id='text'
                         placeholder='Book Name'
@@ -132,7 +132,11 @@ export default function RequestBook() {
                         value={formData.BookName}
                         onChange={handleChange}
                         required
-                    />
+                    /> */}
+                    <div className='Dynamicinput'>
+                        <AddDynamicInputFields/>
+                    </div>
+                    
                     <button type='submit'>Submit</button>
                 </form>
             </div>

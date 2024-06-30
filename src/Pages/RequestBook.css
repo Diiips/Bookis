@@ -29,7 +29,7 @@
 
 .RequestBook-content {
     position: relative;
-    top: -6vw;
+    top: -9vw;
     background-color: white;
     width: 50%;
     display: flex;
@@ -42,14 +42,14 @@
 .RequestBook-content form {
     display: flex;
     flex-direction: column;
-    gap: 1.5vw;
+    gap: 1.3vw;
 
     
 }
 .RequestBook-input{
     display: flex;
     flex-direction: column;
-    gap: 1.7vw;
+    gap: 1.5vw;
     /* background-color: red; */
     width: 100%;
     height: max-content;
@@ -73,6 +73,14 @@ textarea:focus {
     border-color: #fb931c;
     outline: none;
 }
+
+.Dynamicinput{
+    width: 100%;
+    height: max-content;
+    /* background-color: navy; */
+}
+
+
 
 .RequestBook-content button[type="submit"] {
     /* margin-top: 1vw; */

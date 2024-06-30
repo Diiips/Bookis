@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items:center;
+  background: linear-gradient(134.6deg, rgba(158, 150, 252, 0.85) -1%, rgb(211, 133, 176) 16.9%, rgb(249, 116, 146) 43.7%, rgb(255, 158, 136) 66.9%, rgb(254, 228, 172) 94.8%);
   /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,134,42,1) 27%, rgba(249,226,162,1) 50%, rgba(253,158,55,1) 70%, rgba(244,30,30,1) 100%); */
 }
 .LoginBackground{
@@ -14,7 +15,7 @@
   justify-content: center;
   align-items: flex-start;
   border-radius: 0vw 0vw 2vw 2vw;
-  background-color: black;
+  /* background-color: black; */
 }
 .LoginBackground h1 {
   width: 100%;
@@ -39,6 +40,7 @@
 .left-block{
   width: 57%;
   border-radius: 0.5vw 0 0 0.5vw;
+  /* background-image: url(../Images/aigenerated-loginimg.png); */
   background-image: url(../Images/loginimg.png);
 }
 .left-block::before {
@@ -58,11 +60,12 @@
 .left-block img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   border-radius: 0.5vw 0 0 0.5vw;
   position: relative;
   z-index: 1;
 }
-
+/* 
 .card {
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -73,21 +76,19 @@
   width: 100%;
   height: 100%;
   text-align: center;
-}
-.card h1{
-  color: white;
-}
+} */
+
 .right-block{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5vw;
+  /* padding: 2.5vw; */
   width: 43%;
   border-radius: 0 0.5vw 0.5vw 0;
-  background:black;
-  border-top: 2px solid rgb(0, 110, 255);
+  background:white;
+  /* border-top: 2px solid rgb(0, 110, 255);
   border-right: 2px solid rgb(0, 110, 255);
-  border-bottom: 2px solid rgb(0, 110, 255);
+  border-bottom: 2px solid rgb(0, 110, 255); */
 }
 .LoginContent form {
   display: flex;
