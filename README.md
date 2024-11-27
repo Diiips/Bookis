@@ -55,21 +55,6 @@ Follow these steps to explore and use Bookies:
 
 ---
 
-## 🤝 **Contribute**
-
-At **Bookies**, we believe in collaboration. If you’d like to contribute to our platform by adding resources, sharing feedback, or improving our services, please contact us anytime. Let's make education accessible together!
-
----
-
-## 📬 **Contact Us**
-
-For questions, suggestions, or technical support, feel free to reach out:
-
-- **Email**: [support@bookies.com](mailto:support@bookies.com)  
-- **Website**: [www.bookies.com](https://www.bookies.com)
-
----
-
 ## ❤️ **Join Us Today!**  
 Be part of a community that values **knowledge-sharing** and **learning without limits**. Happy reading!  
 
