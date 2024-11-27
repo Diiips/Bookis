@@ -38,6 +38,10 @@ Welcome to **Bookies**, a platform built by engineering students for engineering
 > Share your knowledge or sell unused resources through our easy-to-use form.  
 ![Donate Page](./Upload_Book.png)
 
+### 🔷 **About Us**  
+> Empowering Engineering Minds, One Book at a Time!
+![About Us](./About_Us.png)
+
 ---
 
 ## 🚀 **Getting Started**
