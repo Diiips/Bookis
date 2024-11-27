@@ -65,6 +65,4 @@ Follow these steps to explore and use Bookies:
 ## ❤️ **Join Us Today!**  
 Be part of a community that values **knowledge-sharing** and **learning without limits**. Happy reading!  
 
----
 
-This README file includes proper formatting, screenshots, and highlights your platform's best features. Feel free to customize it further as per your requirements!
