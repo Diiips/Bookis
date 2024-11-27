@@ -42,6 +42,9 @@ Welcome to **Bookies**, a platform built by engineering students for engineering
 > Empowering Engineering Minds, One Book at a Time!
 ![About Us](./About_Us.png)
 
+### 🔷 **Contact Us**  
+> "We're Here to Help!"
+![Contact Us](./Contact_Us.png)
 ---
 
 ## 🚀 **Getting Started**
