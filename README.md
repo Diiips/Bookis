@@ -57,7 +57,7 @@ Together, these technologies power **Bookies** to deliver a fast, secure, and us
 
 ---
 
-## 🚀 **Getting Started**
+## ✨ **Getting Started**
 
 Follow these steps to explore and use Bookies:
 
