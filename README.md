@@ -47,6 +47,16 @@ Welcome to **Bookies**, a platform built by engineering students for engineering
 ![Contact Us](./Contact_Us.png)
 ---
 
+### 🚀 Technologies Used in **Bookies**  
+
+- **Frontend**: 🖥️ **React** – Dynamic, responsive, and component-based UI.  
+- **Backend**: 🌐 **Node.js** – Fast, scalable server management.  
+- **Database**: 🗄️ **MongoDB** – Secure and flexible data storage.  
+
+Together, these technologies power **Bookies** to deliver a fast, secure, and user-friendly platform! 📚✨  
+
+---
+
 ## 🚀 **Getting Started**
 
 Follow these steps to explore and use Bookies:
