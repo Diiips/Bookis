@@ -24,7 +24,7 @@ Welcome to **Bookies**, a platform built by engineering students for engineering
 
 ---
 
-## 🖼️ **Screenshots**
+## 🖼️ **Project Preview**
 
 ### 🔷 **Home Page**  
 > Welcome to our vibrant home screen that showcases our mission: making learning accessible to everyone!  
