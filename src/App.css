@@ -6,7 +6,7 @@
 .App{
   margin: 0;
   width: 100vw; 
-  height:100vh;
+  /* height:100vh; */
   background-color: black;
   /* display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
 
 /* App.css */
 
-.page-enter {
+/* .page-enter {
   left: 0;
   opacity: 0;
   transform: rotateY(90deg);
@@ -38,5 +38,5 @@
   opacity: 0;
   transform: rotateY(90deg);
   transition: opacity 600ms, transform 1000ms;
-}
+} */
 

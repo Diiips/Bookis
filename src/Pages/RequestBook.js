@@ -8,7 +8,7 @@ export default function RequestBook() {
         Year: "",
         Semester: "",
         Department: "",
-        BookName: ""
+        BookName: []
     };
 
     const [formData, setFormData] = useState(initialFormData);
@@ -19,9 +19,10 @@ export default function RequestBook() {
             ...formData,
             [name]: value
         });
+        
     };
 
-    const fetchData = async (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         const requestBody = {
@@ -32,9 +33,10 @@ export default function RequestBook() {
             Department: formData.Department,
             BookName: formData.BookName
         };
+        console.log(requestBody);
 
         try {
-            const response = await fetch('http://localhost:5000/requestbook', { // Replace with your API URL
+                const response = await fetch('http://localhost:5000/requestbook', { // Replace with your API URL
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -60,7 +62,7 @@ export default function RequestBook() {
                 <h1>Donate/Sell Your Book</h1>
             </div>
             <div className='RequestBook-content'>
-                <form onSubmit={fetchData}>
+                <form onSubmit={handleSubmit}>
                     <div className='RequestBook-input'> 
                         <input
                             type='text'
@@ -124,17 +126,8 @@ export default function RequestBook() {
                             <option value='Artificial & Intelligence'>Artificial & Intelligence</option>
                         </select>
                     </div>
-                    {/* <input
-                        type='text'
-                        id='text'
-                        placeholder='Book Name'
-                        name='BookName'
-                        value={formData.BookName}
-                        onChange={handleChange}
-                        required
-                    /> */}
                     <div className='Dynamicinput'>
-                        <AddDynamicInputFields/>
+                        <AddDynamicInputFields formData={formData} setFormData={setFormData}/>
                     </div>
                     
                     <button type='submit'>Submit</button>

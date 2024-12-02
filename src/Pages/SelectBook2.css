@@ -1,0 +1,50 @@
+.SelectBook-page{
+    background-color: black;
+    /* background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114)); */
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SelectBook-page-containt{
+    /* background: linear-gradient(102.2deg, rgb(250, 45, 66) 9.6%, rgb(245, 104, 104) 96.1%); */
+    /* background: linear-gradient(to bottom right, #bca4e2, #e8a8d1, #ffa7b1, #ffc4a1, #ffdb9f, #fef4c1); */
+    background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    padding: 1.5vw;
+    gap: 2vw;
+    /* border-radius: 1vw; */
+    
+}
+.Searchbar{
+    /* padding: 2vw; */
+}
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.3vw;
+    width: 77%;
+    height: max-content;
+    background-color:white;
+    border-radius: 0.5vw;
+    padding:1vw 0vw;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); */
+}
+.display {
+    width: 77%;
+    height: 70%;
+    border-radius: 0.5vw;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); */
+}

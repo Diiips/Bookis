@@ -1,7 +1,5 @@
 .form-container {
-    /* margin: 20px; */
     width: 100%;
-    /* background-color: red; */
   }
   
   .Dynamic-input-group {
@@ -10,7 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
     gap: 1vw;
   }
   
@@ -33,7 +31,6 @@
     align-items: center;
     width: 10%;
     color: white;
-    background-color: orange;
     cursor: pointer;
   }
   .remove-button button{
@@ -41,19 +38,19 @@
     height: 100%;
   }
   .remove-button:hover {
-    background-color: darkorange;
-    border-color: darkorange;
+    /* background-color: darkorange;
+    border-color: darkorange; */
   }
   
 
 
 
 .button-5 {
-    width: 3vw;
-    height: 3.3vw;
+    width: 10vw;
+    height: 3.2vw;
   align-items: center;
   background-clip: padding-box;
-  background-color: #fa6400;
+  background: -webkit-linear-gradient(.200turn,#fa6d6d,#fcb045);
   border: 1px solid transparent;
   border-radius: .25rem;
   /* box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0; */
@@ -68,7 +65,7 @@
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 0;
+  /* margin: 0; */
   /* min-height: 3rem; */
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -78,7 +75,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: auto;
+  /* width: auto; */
 }
 
 .button-5:hover,

@@ -1,216 +1,142 @@
-
-.LoginPage {
+/* Form Container */
+.LoginForm-page {
   width: 100vw;
-  height: 50vw;
+  height: 90vh;
+  background-color: black;
+  /* background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%); */
   display: flex;
   flex-direction: column;
-  align-items:center;
-  background: linear-gradient(134.6deg, rgba(158, 150, 252, 0.85) -1%, rgb(211, 133, 176) 16.9%, rgb(249, 116, 146) 43.7%, rgb(255, 158, 136) 66.9%, rgb(254, 228, 172) 94.8%);
-  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,134,42,1) 27%, rgba(249,226,162,1) 50%, rgba(253,158,55,1) 70%, rgba(244,30,30,1) 100%); */
-}
-.LoginBackground{
-  display: flex;
-  width: 100%;
-  height: 15%;
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 0vw 0vw 2vw 2vw;
-  /* background-color: black; */
-}
-.LoginBackground h1 {
-  width: 100%;
-  height: max-content;
-  color: white;
-  font-size: 1.7vw;
-  font-weight: 500;
-  text-align: center;
-  padding: 2vw 0;
-}
-.LoginContent {
-  background-color: white;
-  width: 65%;
-  height: 70%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 0.5vw;
-  position: relative;
-  top: 3vw;
-  display: flex;
-  flex-direction: row;
-}
-.left-block{
-  width: 57%;
-  border-radius: 0.5vw 0 0 0.5vw;
-  /* background-image: url(../Images/aigenerated-loginimg.png); */
-  background-image: url(../Images/loginimg.png);
-}
-.left-block::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../Images/loginimg.png');
-  background-size: cover;
-  border-radius: 0.5vw 0 0 0.5vw;
-  filter: blur(16px);
-  z-index: -1;
-}
-
-.left-block img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 0.5vw 0 0 0.5vw;
-  position: relative;
-  z-index: 1;
-}
-/* 
-.card {
-  backdrop-filter: blur(5px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(3, 45, 123, 0.49);
-  border-radius: 0.5vw 0 0 0.5vw;
-  padding: 3.8vw;
-  color: white;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-} */
-
-.right-block{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  /* padding: 2.5vw; */
-  width: 43%;
-  border-radius: 0 0.5vw 0.5vw 0;
-  background:white;
-  /* border-top: 2px solid rgb(0, 110, 255);
-  border-right: 2px solid rgb(0, 110, 255);
-  border-bottom: 2px solid rgb(0, 110, 255); */
-}
-.LoginContent form {
-  display: flex;
-  gap: 2vw;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  position: fixed;
 }
 
+.formbox {
+  width: 30%;
+  height: max-content;
+  background-color: white;
+  padding: 2.5vw;
+  border-radius: 0.5vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+/* Title */
+#title {
+  font-size: 1.8vw;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 2vw;
+}
+
+/* Input Group */
 .input-group {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.1vw;
+  gap: 1.5vw;
+  margin-bottom: 2vw;
 }
+
+/* Input Field */
 .input-field {
-  position: relative;
-  width: 100%;
-}
-
-.input-field .fa-user,
-.input-field .fa-envelope,
-.input-field .fa-lock {
-  position: absolute;
-  left: 0.8vw;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #aaa;
-  font-size: 1.1vw;
-}
-
-.input-field input[type="text"],
-.input-field input[type="email"],
-.input-field input[type="password"] {
-  width: 100%;
-  padding: 0.8vw 0.8vw 0.8vw 2.5vw;
+  display: flex;
+  align-items: center;
+  gap: 0.8vw;
+  padding: 0.8vw;
   border: 1px solid #ccc;
   border-radius: 0.3vw;
-  font-size: 1.1vw;
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
 }
 
-.input-field input[type="text"]:focus,
-.input-field input[type="email"]:focus,
-.input-field input[type="password"]:focus {
-  border-color: #fb9d06;
-  outline: none;
-}
-
-
-.btn-field {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-/* 
-.LoginContent button[type="submit"] {
-  width: 40%;
-  padding: 1vw;
-  border: none;
-  border-radius: 0.2vw;
-  background-color: #333;
-  color: white;
+.input-field i {
+  color: #333;
   font-size: 1.2vw;
-  cursor: pointer;
 }
 
-.LoginContent button[type="submit"]:hover {
-  background: -webkit-linear-gradient(0.4turn, #fa6d6d, #ff7e5f, #ffae4f, #fcb045);
+.input-field input {
+  border: none;
+  outline: none;
+  font-size: 1.1vw;
+  width: 100%;
+  /* background: violet; */
+  background: transparent;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
-.disable {
-  background-color: #c66565;
-  cursor: not-allowed;
-} */
+.input-field input:focus {
+  border-color: #67a4ff;
+}
 
+/* Forgot Password */
 p {
   font-size: 1vw;
-  font-family:'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  margin: 0;
+  color: #333;
 }
 
 p a {
-  color: #fb9d06;
+  color: #0056b3;
   text-decoration: none;
+  font-weight: 500;
 }
 
 p a:hover {
   text-decoration: underline;
 }
 
+/* Buttons */
+.btn-field {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5vw;
+}
 
-
-/* CSS */
-.LoginContent button[type="submit"] {
+.btn-field button {
   background: linear-gradient(to bottom right, #EF4765, #ffc35a);
   border: 0;
-  width: 10vw;
-  border-radius: 0.2vw;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.1vw;
+  width: 100%;
+  border-radius: 0.3vw;
+  color: white;
+  font-size: 1.2vw;
   font-weight: 500;
-  line-height: 2.7;
-  outline: transparent;
-  /* padding: 0 1rem; */
+  line-height: 2.5;
+  cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
-.LoginContent button[type="submit"]:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+.btn-field button.disable {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
-.LoginContent button[type="submit"]:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+.btn-field button:not(.disable):hover {
+  box-shadow: 0 0 0.3vw rgba(0, 0, 0, 0.2), -0.15vw -0.15vw 1vw rgba(239, 71, 101, 0.5), 0.15vw 0.15vw 1vw rgba(255, 154, 90, 0.5);
+}
+
+.btn-field button:not(.disable):focus {
+  box-shadow: 0 0 0.3vw rgba(0, 0, 0, 0.2), -0.15vw -0.15vw 1vw rgba(239, 71, 101, 0.5), 0.15vw 0.15vw 1vw rgba(255, 154, 90, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .formbox {
+    width: 80%;
+  }
+
+  #title {
+    font-size: 2vw;
+  }
+
+  .input-field i {
+    font-size: 1.5vw;
+  }
+
+  .input-field input {
+    font-size: 1.3vw;
+  }
+
+  .btn-field button {
+    font-size: 1.5vw;
+  }
 }

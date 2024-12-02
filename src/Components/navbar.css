@@ -4,7 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: purple; */
+    background-color: transparent;
+    /* background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114)); */
+    /* background-color:transparent; */
 }
 .nav-logo{
     display: flex;
@@ -22,7 +24,9 @@ ul li a {
     text-decoration: none;
     color:white;
 }
-
+ul li a.active{
+    background: -webkit-linear-gradient(.40turn,#fa6d6d,#fcb045);
+}
 .nav-login {
     cursor: pointer;
     font-weight: bold;

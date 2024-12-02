@@ -38,7 +38,7 @@ export default function ContactUs() {
                     {/* <label htmlFor="message">Message</label> */}
                     <textarea id="message" name="message" placeholder='Message Us' rows="5" required></textarea>
 
-                    <button type="submit">Send Message</button>
+                    <button type="submit" className='Contactus-btn'>Send Message</button>
                 </form>
             </div>
         </div>

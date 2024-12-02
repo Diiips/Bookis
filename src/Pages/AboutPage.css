@@ -1,17 +1,19 @@
 .Aboutpg{
     width: 100vw;
-    height: 100vw;
-    
+    height:100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
     background-color:#fdf4e8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 .background{
     display: flex;
     width: 100%;
-    height: 15%;
+    height: 50%;
     justify-content: center;
     align-items: flex-start;
     border-radius: 0vw 0vw 2.3vw 2.3vw;
@@ -19,7 +21,7 @@
 }
 .background h1{
     width: 100%;
-    height: max-content;
+    height: 100%;
     color: white;
     font-size: 1.7vw;
     font-weight: 500;
@@ -32,19 +34,19 @@
     top: -6vw;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 40%;
+    width: 46%;
     height: 100%;
-   
+   padding-bottom: 2vw;
+   border-radius: 0vw 0vw 1vw 1vw;
 }
 .Aboutpg-content img{
     width: 100%;
-    height: 17%;
+    height: 40%;
     object-fit: cover;
     background-color:white;
 }
 .Aboutpg-content p{
-    padding: 1vw;
-    /* line-height: 1.5vw; */
-    text-align:justify;
+    padding:1vw 1vw;
+    /* text-align:justify; */
     font-size: 1.2vw;
 }

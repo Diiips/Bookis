@@ -1,16 +1,17 @@
 .ContactUs-Page{
     width: 100vw;
-    height: 100vw;
-    background-color: #fdf4e8;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
 }
 
 .ContactUs-background{
     display: flex;
     width: 100%;
-    height: 15%;
+    height: 35%;
     justify-content: center;
     align-items: flex-start;
     border-radius: 0vw 0vw 2vw 2vw;
@@ -30,7 +31,7 @@
 
 .ContactUs-content{
     position: relative;
-    top: -6vw;
+    top: -9vw;
     background-color: white;
     /* background: -webkit-linear-gradient(45turn, #ffd09a, #ffcf8c); */
     width: 40%;
@@ -73,7 +74,7 @@ textarea:focus {
     outline: none;
 }
 
-.ContactUs-content button[type="submit"] {
+/* .ContactUs-content button[type="submit"] {
     width: 100%;
     padding: 1vw;
     border: none;
@@ -86,6 +87,36 @@ textarea:focus {
 
 .ContactUs-content button[type="submit"]:hover {
     background: -webkit-linear-gradient(.40turn, #fa6d6d, #ff7e5f, #ffae4f, #fcb045);
-    /* background-color: #555; */
-}
+} */
     
+
+
+.ContactUs-content button[type="submit"] {
+    background: linear-gradient(to bottom right, #EF4765, #ffc35a);
+    border: 0;
+    width: 100%;
+    border-radius: 0.2vw;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    /* padding: 0 1rem; */
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .ContactUs-content button[type="submit"]:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .ContactUs-content button[type="submit"]:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }

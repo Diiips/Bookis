@@ -25,25 +25,22 @@
     font-weight: 500;
     /* background-color: red; */
 }
-.dropdowns{
+/* .dropdowns{
     display: flex;
     flex-direction: column;
     width: 33.33%;
     height:100%;
     align-items: center;
     justify-content: center;
-    /* background-color: purple; */
     gap: 2vw;
-}
-.downpart{
+} */
+/* .downpart{
     display: flex;
     flex-direction: row;
-    /* gap: 2vw; */
-    /* background-color: blue; */
     width: 80vw;
     height: 60vh;
     justify-content:center;
-}
+} */
 .book-cover-img{
     display: flex;
     justify-content: center;

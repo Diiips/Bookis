@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./AddDynamicInputFields.css"; // Make sure to import the CSS file
 import { Button } from "@react-pdf-viewer/core";
 
-function AddRemoveInputField() {
+function AddRemoveInputField({formData,setFormData}) {
   const [inputFields, setInputFields] = useState([{ fullName: '' }]);
 
   const addInputField = () => {
@@ -20,6 +20,11 @@ function AddRemoveInputField() {
       i === index ? { ...field, [name]: value } : field
     );
     setInputFields(updatedFields);
+    setFormData({
+      ...formData,
+      ["BookName"]: inputFields
+  });
+
   };
 
   return (
@@ -47,6 +52,7 @@ function AddRemoveInputField() {
             </button>
           )}
           </div>
+          
         </div>
       ))}
       

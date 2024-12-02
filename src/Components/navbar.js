@@ -9,14 +9,16 @@ export default function Navbar(){
                 <h1>Bookis</h1>
             </div>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/AboutPage">About</Link></li>
-                <li><Link to="/RequestBook">Donate Book</Link></li>
-                {/* <li><Link to="/">Donate Book</Link></li> */}
-                <li><Link to="/ContactUs">Contact Us</Link></li>
+                <li><Link to="/" activeClass="active">Home</Link></li>
+                <li><Link to="/AboutPage" activeClass="active">About</Link></li>
+                <li><Link to="/RequestBook" activeClass="active">Donate Book</Link></li>
+                {/* <li><Link to="/" activeClass="active">Donate Book</Link></li> */}
+                {/* <li><Link to="/SelectBook2" activeClass="active">SelectBook2 </Link></li> */}
+                <li><Link to="/ContactUs" activeClass="active">Contact Us</Link></li>
             </ul>
+            
             <div className='nav-login'>
-            <Link to="/Login3">Login</Link>
+            <Link to="/Login2">Login</Link>
             </div>
         </div>
     );
