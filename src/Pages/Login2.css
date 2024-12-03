@@ -15,7 +15,7 @@
   width: 30%;
   height: max-content;
   background-color: white;
-  padding: 2.5vw;
+  padding: 1.5vw;
   border-radius: 0.5vw;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1.9vw;
 }
 
 /* Input Field */
@@ -47,6 +47,19 @@
   border: 1px solid #ccc;
   border-radius: 0.3vw;
   background-color: #f9f9f9;
+}
+/* Normalize autofilled input styling */
+input:-webkit-autofill {
+  padding: 0.8vw; /* Match the padding used in other fields */
+  box-shadow: 0 0 0 30px #f9f9f9 inset !important; /* Match background */
+  -webkit-text-fill-color: #333 !important; /* Text color */
+  font-size: 1.1vw; /* Match the font size of other fields */
+}
+
+/* Ensure no extra space is added */
+.input-field input {
+  padding: 0.3vw; /* Consistent padding for all input fields */
+  margin: 0; /* Remove any unintended margins */
 }
 
 .input-field i {
